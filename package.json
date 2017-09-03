@@ -1,0 +1,21 @@
+{
+  "name": "netlab-telemetry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "telemetry.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briancsparks/netlab-telemetry.git"
+  },
+  "author": "Brian C Sparks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/briancsparks/netlab-telemetry/issues"
+  },
+  "homepage": "https://github.com/briancsparks/netlab-telemetry#readme",
+  "dependencies": {
+    "aws-sdk": "^2.108.0",
+    "serverassist": "^0.1.10",
+    "sgsg": "^0.9.28"
+  }
+}
