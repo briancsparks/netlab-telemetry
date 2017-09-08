@@ -139,6 +139,14 @@ function earliest(data) {
   return (evaluatePayload(data) || {}).earliest || null;
 };
 
+function bucketName() {
+  if (sg.isProduction()) {
+    return 'sa-telemetry-netlab-asis-prod';
+  }
+
+  return 'sa-telemetry-netlab-asis-test';
+}
+
 //    minTime = Math.min(minTime, all.startTime || Number.MAX_SAFE_INTEGER);
 //    _.each(all, bucket => {
 //      if (!sg.isObject(bucket)) { return; }
